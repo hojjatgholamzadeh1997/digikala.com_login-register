@@ -142,6 +142,10 @@ main .form-container form .enter button {
   border-radius: 7.5px;
 }
 
+main .form-container form .enter button:hover {
+  cursor: pointer;
+}
+
 /* form terms-privacy */
 main .form-container form .terms-privacy {
   margin-top: 16px;
@@ -166,4 +170,8 @@ main .form-container form .terms-privacy p {
 
 main .form-container form .terms-privacy p span {
   color: #008eb2;
+}
+
+main .form-container form .terms-privacy p span:hover {
+  cursor: pointer;
 }
