@@ -1,0 +1,10 @@
+/* fonts */
+@font-face {
+  font-family: iranyekan-web-regular;
+  src: url(../assets/fonts/iranyekan-web-regular.woff2);
+}
+
+@font-face {
+  font-family: iranyekan-web-bold;
+  src: url(../assets/fonts/iranyekan-web-bold.woff2);
+}
