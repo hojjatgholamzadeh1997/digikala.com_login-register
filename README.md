@@ -6,7 +6,7 @@
 
   **Start Date** : 11 May 2025
 
-  **End Date** : Developing...
+  **End Date** : 11 May 2025
 
   **Idea from** : [https://www.digikala.com/users/login-register/](https://www.digikala.com/users/login-register/)
 
