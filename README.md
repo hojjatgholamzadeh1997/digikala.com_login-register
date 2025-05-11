@@ -39,7 +39,6 @@
       - fonts.css
       - main.css
       - reset.css
-      - responsive.css
       - style.css
     - About.txt
     - index.html

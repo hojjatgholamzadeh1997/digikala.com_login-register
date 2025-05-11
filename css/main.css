@@ -1,15 +1,169 @@
 /* main */
 main {
+  font-family: iranyekan-web-regular;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-main form {
-  border: 1px solid #000;
-  width: 400px;
-  height: 480px;
-  line-height: 480px;
+/* form container */
+main .form-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  main .form-container {
+    padding: 32px;
+    width: 400px;
+    height: 480px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    gap: 10px;
+  }
+}
+
+/* form logo */
+main .form-container .logo {
   text-align: center;
+  margin-bottom: 12px;
+}
+
+main .form-container .logo img {
+  width: 100px;
+  height: 70px;
+}
+
+/* form title */
+main .form-container .title {
+  margin: 16px 0;
+}
+
+main .form-container .title h1 {
+  font-family: iranyekan-web-bold;
+  font-size: 12.8px;
+  color: #0c0c0c;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 360px) {
+  main .form-container .title h1 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main .form-container .title h1 {
+    font-size: 19px;
+  }
+}
+
+main .form-container .title p {
+  font-size: 8.8px;
+  color: #3f4064;
+  margin-bottom: 7.5px;
+}
+
+@media screen and (min-width: 360px) {
+  main .form-container .title p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main .form-container .title p {
+    font-size: 12px;
+  }
+}
+
+/* form phone-email */
+main .form-container form .phone-email input {
+  width: 100%;
+  border-radius: 7.5px;
+  border: 0;
+  outline: 0;
+  background-color: #f0f0f1;
+  caret-color: #19bfd3;
+  color: rgba(0, 0, 0, 0.7);
+  height: 38px;
+  border-bottom: 2px solid #d32f2f;
+  padding: 0 15px;
+  font-size: 10.4px;
+}
+
+@media screen and (min-width: 360px) {
+  main .form-container form .phone-email input {
+    height: 48px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main .form-container form .phone-email input {
+    background-color: transparent;
+    border: 1px solid #d32f2f;
+    font-size: 16px;
+  }
+}
+
+main .form-container form .phone-email p {
+  font-size: 8.8px;
+  color: #b2001a;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 360px) {
+  main .form-container form .phone-email p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main .form-container form .phone-email p {
+    font-size: 12px;
+  }
+}
+
+/* form enter */
+main .form-container form .enter {
+  margin-top: 24px;
+}
+
+main .form-container form .enter button {
+  width: 100%;
+  padding: 12px 16px;
+  background-color: #ef4056;
+  color: #fff;
+  border-radius: 7.5px;
+}
+
+/* form terms-privacy */
+main .form-container form .terms-privacy {
+  margin-top: 16px;
+}
+
+main .form-container form .terms-privacy p {
+  font-size: 8px;
+  color: #3f4064;
+}
+
+@media screen and (min-width: 360px) {
+  main .form-container form .terms-privacy p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main .form-container form .terms-privacy p {
+    font-size: 11px;
+  }
+}
+
+main .form-container form .terms-privacy p span {
+  color: #008eb2;
 }
